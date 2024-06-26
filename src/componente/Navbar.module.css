@@ -1,0 +1,45 @@
+.navBar{
+    color: #707070;
+    padding-left: 82%;
+}
+
+.navBar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navBar li {
+    margin-left: 20px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+
+.navBar img {
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .navBar {
+        padding-left: 13%;
+    }
+
+    .navBar li a {
+        font-size: 13px;
+    }
+
+    .navBar img {
+        width: 30px;
+    }
+}
+

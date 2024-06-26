@@ -1,0 +1,14 @@
+.btn{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #7B7B7B;
+    background-color: #F8F8F8;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+}
